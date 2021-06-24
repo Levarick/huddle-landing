@@ -1,0 +1,38 @@
+$primary-color: hsl(257, 40%, 49%);
+$secondary-color: hsl(300, 69%, 71%);
+$headings-font: 'Poppins', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $primary-color;
+  font-family: $body-font;
+  font-size: 1.6rem;
+  background-image: url(../../images/bg-mobile.svg);
+}
+
+body .images {
+  display: flex;
+  flex-direction: column;
+
+  &__logo {
+    width: 150px;
+  }
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
